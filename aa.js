@@ -1,7 +1,7 @@
 
 function hesapla(){
 const x = document.getElementById('yas').value;
-document.getElementById("sonuc").innerHTML = Math.floor( x*99.45);
+document.getElementById("sonuc").innerHTML = Math.floor( x*99.45)+" Pony Yaşındasın!";
 console.log(val);}
 
 var audio = document.getElementById('background_audio');
