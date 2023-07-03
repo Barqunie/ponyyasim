@@ -6,6 +6,8 @@ console.log(x);}
 
 var audio = document.getElementById('background_audio');
 audio.volume = 0.1;
+document.getElementById("background_audio").loop = true;
+
 
 
 document.getElementById('sus').addEventListener('click', function (e)
